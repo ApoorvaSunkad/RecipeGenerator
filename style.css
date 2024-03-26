@@ -45,17 +45,6 @@ form button[type="submit"]:hover{
     background-color: #55a08e;
 }
 
-/* For responsivess - on smaller screens */
-@media screen and (max-width:600px) {
-    header nav{
-        flex-direction: column;
-    }
-    header nav form{
-        width: 80%;
-        margin-top: 25px;
-    }
-}
-
 /* Main Section */
 .recipe-container{
     text-align: center;
@@ -183,4 +172,17 @@ body::-webkit-scrollbar-thumb{
 }
 body::-webkit-scrollbar-track{
     background: #d9d5d5;
+}
+
+
+
+/* Adding Responsiveness on smaller screens */
+@media screen and (max-width:600px) {
+    header nav{
+        flex-direction: column;
+    }
+    header nav form{
+        width: 80%;
+        margin-top: 25px;
+    }
 }
